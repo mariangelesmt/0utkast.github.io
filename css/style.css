@@ -1823,7 +1823,7 @@ main h1{
   max-width: 300px;
 }
 
-.menuf {
+#menuf li {
   display: inline;
   padding-left: 3px;
   padding-right: 3px;
