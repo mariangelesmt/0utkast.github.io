@@ -507,7 +507,14 @@ label.error{
 
 /* 1.5 Icons */
 
-
+/* Cursor */
+.cursor{
+  width: 10px;
+  height: 10px;
+  background: #1D96DA;
+  border-radius: 50%;
+  position: absolute;
+}
 
 i.icon{
   display: inline-block;
