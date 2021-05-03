@@ -89,7 +89,7 @@ h1,
 .h1{ 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 4.3em;
+  font-size: 3em;
   line-height: 1.2;
   color: #3b3b3b;
   margin:0.6em 0;
@@ -99,7 +99,7 @@ h1 i,
 .h1 i{
   display: inline-block;
   font-size: 1.1em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
 }
 
 
@@ -107,7 +107,7 @@ h2,
 .h2, .maria{ 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.2;
   color: #3b3b3b;
   margin:0.6em 0;
@@ -115,7 +115,7 @@ h2,
 
 h2 i,
 .h2 i{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-size: 1.1em;
 }
 
@@ -130,7 +130,7 @@ h3,
 
 h3 i,
 .h3 i{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-size: 1.1em;
 }
 
@@ -148,7 +148,7 @@ h4,
 
 h4 i,
 .h4 i{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-size: 1.1em;
 }
 
