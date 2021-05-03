@@ -18,6 +18,14 @@
 <body class="body-no-sidebar">
 <div class="animsition">
     
+      <!-- Cursor -->
+    <div class="cursor"></div>
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e =>{
+            cursor.setAttribute("style", "top: " + (e.pageY -10)+ "px;left: "+(e.pageX -15)+ "px;");
+                                })
+    </script> 
     
     <!-- Header -->
 
@@ -106,7 +114,7 @@
         <div class="clearfix">
           <div class="container-fluid col-lg-5 col-lg-offset-6">
             <header>
-                <h2>Hola, me llamo </h2><h1>MªÁngeles.</h1>
+                <h2>Hola, me llamo </h2><h1 class="maria">M.Ángeles.</h1>
             </header>
             <div class="about-entry">
               <p>Soy diseñadora, nacida en un lugar de la mancha. Enfocada en hacer productos únicos y de gran valor.Con mucha sed de descubrir y aprender cada día del mundo digital.</p>
@@ -118,49 +126,7 @@
     </main>
     
     
-    <!--Frases -->
-    <div class="content"> 
-      <section class="section-sm bg-light">
-        <div class="container-fluid">
-          <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
-            <div class="client-carousel owl-carousel js-client-carousel ">
-              <div class="client">
-                <span class="quote">"</span>
-                  <p class="client-text">
-                  La gente ignora el diseño que ignora a la gente.</p>
-                  <span class="client-name">Frank Chimero </span>
-              </div>
-              <div class="client">
-                <span class="quote">"</span>
-                  <p class="client-text">
-                  Do you want to be even more successful?
-                  Learn to love learning and growth. The more effort you put into improving your skills,
-                  the bigger the payoff you will get. Realize that things will be hard at first, but rewards.</p>
-                  <span class="client-name">Calum Chambers — </span>
-                  <i>Adobe sales manager</i>
-              </div>
-              <div class="client">
-                <span class="quote">"</span>
-                  <p class="client-text">
-                  Do you want to be even more successful?
-                  Learn to love learning and growth. The more effort you put into improving your skills,
-                  the bigger the payoff you will get. Realize that things will be hard at first, but rewards.</p>
-                  <span class="client-name">Calum Chambers — </span>
-                  <i>Adobe sales manager</i>
-              </div>
-              <div class="client">
-                <span class="quote">"</span>
-                  <p class="client-text">
-                  Do you want to be even more successful?
-                  Learn to love learning and growth. The more effort you put into improving your skills,
-                  the bigger the payoff you will get. Realize that things will be hard at first, but rewards.</p>
-                  <span class="client-name">Calum Chambers — </span>
-                  <i>Adobe sales manager</i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+   
       
       <div class="clearfix section-sm pb-0">
         <div class="container">
