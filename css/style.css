@@ -1055,7 +1055,7 @@ header p:last-child{
 .navbar.light .social-list li a:hove{
   text-decoration: none;
   /*color:#303030;*/
-  color:#1D96DA;
+  color: #1D96DA;
 }
 
 .navbar.affix .navbar-toggle .icon-bar,
