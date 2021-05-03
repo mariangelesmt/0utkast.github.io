@@ -501,7 +501,8 @@ label.error{
 }
 
 .btn-dark{
-  background-color:#292929;
+  /* background-color:#292929; */
+  background-color:#1D96DA;
   box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
