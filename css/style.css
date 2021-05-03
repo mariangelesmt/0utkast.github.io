@@ -518,7 +518,6 @@ label.error{
   border-radius: 50%;
   position: absolute;
   transition-duration: 200ms;
-  z-index: 2;
 }
 
 i.icon{
