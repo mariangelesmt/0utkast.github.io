@@ -863,7 +863,8 @@ header p:last-child{
 
 .nav-desctop-list li > a:hover,
 .nav-desctop-list .active > a{
-  opacity: 0.6;
+  /*opacity: 0.6;*/
+  color: #1D96DA;
 }
 
 .nav-desctop-list li ul{
