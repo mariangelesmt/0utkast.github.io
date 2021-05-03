@@ -3,52 +3,61 @@
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>M.Ángeles. - Minimal Portfolio Template</title> 
+<title>Portfolio MªÁngeles Muñoz Torres</title> 
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="favicon.png">
+<link rel="shortcut icon" href="https://github.com/mariangelesmt/portfolio/raw/master/favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
 <!-- Styles -->
-<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Montserrat:400,500,700|Playfair+Display:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Krona+One|Montserrat:400,500,700|Playfair+Display:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
 <body class="body-no-sidebar">
-<div class="animsition"> 
-
+<div class="animsition">
+    
+      <!-- Cursor -->
+    <div class="cursor"></div>
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e =>{
+            cursor.setAttribute("style", "top: " + (e.pageY -10)+ "px;left: "+(e.pageX -15)+ "px;");
+                                })
+    </script> 
+    
     <!-- Header -->
 
     <header class="navbar navbar-desctop light hidden-xs hidden-sm">
       <div>
+          <!--class="brand js-target-scroll"-->
         <a href="index.html" class="brand js-target-scroll">
-          M.Ángeles
+            M<span style= "color: #1D96DA;">.</span>ÁNGELES
         </a>
 
           <ul class="social-list">
-            <li><a href="" class="fa fa-facebook"></a></li>
+             <li><a href="" class="fa fa-facebook"></a></li>
             <li><a href="https://www.linkedin.com/in/mangelesmt/" class="fa fa-linkedin"></a></li>
-            <li><a href="" class="fa fa-instagram"></a></li>
           </ul>  
       
         <!-- Navigation Desctop -->
 
         <nav class="nav-desctop">
           <ul class="nav-desctop-list">
-            <li class="menu-item-has-children">
+            <li class="active">
               <a href="index.html">Inicio</a>
             </li>
-            <li class="menu-item-has-children">
-              <a href="about-minimal.html">Sobre mí</a>
+            <li>
+              <a href="about.html">Sobre mí</a>
             </li>
-            <li class="menu-item-has-children">
+            <li >
               <a href="cv.html">CV</a>
             </li> 
-            <li class="menu-item-has-children">
-              <a href="portfolio-grid.html">Portfolio</a>
+            <li >
+              <a href="portfolio.html">Portfolio</a>
             </li> 
-            <li class="active menu-item-has-children">
+            <li class="menu-item-has-children">
               <a href="contact.html">Contacto</a>
             </li>
           </ul>
@@ -58,7 +67,7 @@
 
     <header class="navbar navbar-mobile light  md-hide">
       <a href="index.html" class="brand js-target-scroll">
-        M.
+        M<span style= "color: #1D96DA;">.</span>ÁNGELES
       </a>
 
       <!-- Navbar Collapse -->
@@ -71,9 +80,8 @@
       </button>
 
       <ul class="social-list">
-        <li><a href="" class="fa fa-facebook"></a></li>
+          <li><a href="" class="fa fa-facebook"></a></li>
         <li><a href="https://www.linkedin.com/in/mangelesmt/" class="fa fa-linkedin"></a></li>
-        <li><a href="" class="fa fa-instagram"></a></li>
       </ul>  
 
      <!-- Navigation Mobile -->
@@ -85,13 +93,13 @@
               <a href="index.html">Inicio</a>
             </li>
             <li>
-              <a href="about-minimal.html">Sobre mí</a>
+              <a href="about.html">Sobre mí</a>
             </li>
             <li>
               <a href="cv.html">CV</a>
             </li> 
             <li>
-              <a href="portfolio-grid.html">Portfolio</a>
+              <a href="portfolio.html">Portfolio</a>
             </li>
             <li >
               <a href="contact.html">Contacto</a>
@@ -100,6 +108,8 @@
         </div>
       </nav> 
     </header>
+    
+    <!--Contacto-->
     <div class="content navbar-space"> 
 
    <!--Formulario-->
@@ -133,46 +143,48 @@
         
    
      <!-- Footer -->
-
-      <footer id="footer" class="footer">     
+ <footer id="footer" class="footer">     
         <div class="container">
           <div class="row-base row">
-            <div class="brand-info col-base col-md-6 col-lg-4">
-              <a href="#top" class="brand js-target-scroll">
-                MªÁngeles.
-              </a>
-              <p>Diseño y tecnología se dan la mano en cada proyecto.</p>
-            </div>
-            <div class="col-contacts col-base col-md-6 col-lg-3 col-lg-offset-1">
-              <address><a href="tel:+34645834276" class="phone">+34 645 834 276</a></address>
-             <address> <a href="mailto:mariangeles.mutor@gmail.com" class="email">mariangeles.mutor@gmail.com</a></address>
+            <div class="col-contacts col-base col-md-6">
+              <address><i class="icon-telephone" style="color: #1D96DA;"></i><a href="tel:+34645834276"> +34 645 834 276</a></address>
+             <address> <i class="icon-envelope" style="color: #1D96DA;"></i><a href="mailto:mariangeles.mutor@gmail.com"> mariangeles.mutor@gmail.com</a></address>
             </div>
             <div class="clearfix visible-md"></div>
-            <div class="col-subscribe col-base col-md-6 col-lg-4">
+            <div class=" col-base col-md-6">
               <div class="pull-right-lg">
-                <div class="subscribe-title">Subscríbete a mi newsletter</div>
-                <form class="subscribe-form js-subscribe-form">
-                  <div class="input-group">
-                    <input id="mc-email" type="email" class="input-round form-control" placeholder="Email">
-                    <span class="input-group-btn">
-                      <button class="btn btn-dark" type="submit"><span class="arrow-right"></span></button>
-                    </span>
+                <div class="subscribe-title">
+                  
+                <ul id="menuf">
+                    <li>
+                      <a href="about.html">Sobre mí</a><span>  | </span>
+                    </li>
+                    <li>
+                      <a href="cv.html">CV</a><span>  | </span>
+                    </li> 
+                    <li>
+                      <a href="portfolio.html">Portfolio</a><span>  | </span>
+                    </li> 
+                    <li>
+                      <a href="contact.html">Contacto</a>
+                    </li>
+                 </ul>
                   </div>
-                  <label class="mc-label" for="mc-email" id="mc-notification"></label>
-                </form>
+                  
               </div>
             </div>
           </div>
         </div>
         <div class="footer-bottom">
           <div class="container">
-              <div class="copyrights">
-              © Copyright 2019 0utKast.
+              <div class="copyrights text-center">
+              © Copyright 2019 0utKast. Edit with ❤︎ by MªÁngeles
               </div> 
           </div>
         </div>
       </footer>
     </div>
+    
     <!-- Modals -->
 
   <div id="request" class="modal fade" role="dialog">
