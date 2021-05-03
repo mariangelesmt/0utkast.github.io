@@ -757,11 +757,13 @@ header p:last-child{
 }
 
 .brand{
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'Krona One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size:1.875em;
   font-weight: 700;
-  line-height: 1;
+  line-height: 37px;
+  letter-spacing: 0.03em;
   color: #303030;
 }
 
