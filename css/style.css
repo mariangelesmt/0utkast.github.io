@@ -1823,6 +1823,12 @@ main h1{
   max-width: 300px;
 }
 
+.menuf {
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 .footer-bottom{
   font-family: 'Montserrat', sans-serif;
   color:#525252;
