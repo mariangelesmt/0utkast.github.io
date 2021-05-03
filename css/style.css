@@ -1790,6 +1790,7 @@ main h1{
   color: #4b4b4b;
   background: #f7f7f7;
   overflow: hidden;
+  z-index: -1;
 }
 
 .footer,
