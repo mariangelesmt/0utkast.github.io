@@ -102,8 +102,9 @@ h1 i,
   font-family: 'Playfair Display', serif;
 }
 
+
 h2,
-.h2{ 
+.h2, .maria{ 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
@@ -509,14 +510,14 @@ label.error{
 
 /* Cursor */
 .cursor{
-  width: 35px;
-  height: 35px;
-  /* background: #1D96DA; */
-  border: 5px solid #1D96DA;
+  width: 20px;
+  height: 20px;
+  background: #1D96DA;
+  /*border: 5px solid #1D96DA;*/
   border-radius: 50%;
   position: absolute;
-  transition-duration: 100ms;
-  z-index: 10;
+  transition-duration: 200ms;
+  z-index: 2;
 }
 
 i.icon{
