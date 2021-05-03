@@ -1058,7 +1058,8 @@ header p:last-child{
 
 .navbar.affix .navbar-toggle .icon-bar,
 .navbar.light .navbar-toggle .icon-bar{
-  background-color: #303030;
+  /*background-color: #303030;*/
+  background-color:#1D96DA;
 }
 
 
