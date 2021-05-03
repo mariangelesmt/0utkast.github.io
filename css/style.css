@@ -852,7 +852,7 @@ header p:last-child{
 }
 
 .nav-desctop-list > li > a{
-  color: #fff;
+  color: #3b3b3b;
   display: block;
   margin-top: 0.2em;
   margin-bottom: 1.8em;
@@ -1032,10 +1032,10 @@ header p:last-child{
   background-color: #f6f6f6;
 }
 
-.navbar.affix .nav-desctop-list li a,
+/*.navbar.affix .nav-desctop-list li a,
 .navbar.light .nav-desctop-list li a{
   color: #3b3b3b;
-}
+}*/
 
 
 .navbar.affix .brand,
