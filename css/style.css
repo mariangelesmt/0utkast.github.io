@@ -728,7 +728,13 @@ header p:last-child{
   2. Header
 -------------------------------------------------------------------------------*/
 
-
+/*Logo*/
+.logo{
+  padding: 0px;
+  margin:0px;
+  width:250px;
+}
+  
 
 /* 2.1 Navbar */
 
