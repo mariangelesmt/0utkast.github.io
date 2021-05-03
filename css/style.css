@@ -493,7 +493,8 @@ label.error{
 
 .btn:hover,
 .btn:focus{
-  background-color:#323232;
+  /*background-color:#323232;*/
+  background-color:#1D96DA;
   color: #fff;
   -webkit-box-shadow:none;
   box-shadow: none;
@@ -501,8 +502,7 @@ label.error{
 }
 
 .btn-dark{
-  /* background-color:#292929; */
-  background-color:#1D96DA;
+  background-color:#292929;
   box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
