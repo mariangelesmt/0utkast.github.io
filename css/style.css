@@ -1801,8 +1801,8 @@ main h1{
 }
 
 .footer a:hover{
-  color: #303030;
-  text-decoration: none;
+  color: #1D96DA;
+  /*text-decoration: none;*/
 }
 
 .footer .brand-info .brand{
