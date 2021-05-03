@@ -509,14 +509,14 @@ label.error{
 
 /* Cursor */
 .cursor{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   /* background: #1D96DA; */
-  border: 10px solid #1D96DA;
+  border: 5px solid #1D96DA;
   border-radius: 50%;
   position: absolute;
   transition-duration: 100ms;
-  z-index: 1000;
+  z-index: 10;
 }
 
 i.icon{
