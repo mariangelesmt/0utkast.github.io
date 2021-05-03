@@ -212,6 +212,7 @@ a {
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
+  z-index: 5;
 }
 
 a:hover,
