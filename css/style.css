@@ -648,8 +648,9 @@ header p:last-child{
 .bg-left-md-fluid,
 .bg-left-lg-fluid{
   margin-top: 5em;
-  height: 30em;
-  background-size: cover;
+  height: 20em;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: 50% 0;
 }
 
