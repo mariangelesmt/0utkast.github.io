@@ -207,6 +207,11 @@ ul{
   padding-left: 0;
 }
 
+.miul{
+  list-style-type: circle;
+  padding-left: 3em;
+}
+
 a {
   color:#303030;
   -webkit-transition: color .3s ease-out;
