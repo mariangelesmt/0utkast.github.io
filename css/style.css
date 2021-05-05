@@ -223,6 +223,9 @@ a {
 .mia {
   text-decoration: underline;
 }
+.mia:hover {
+  color: #1D96DA;
+}
 
 a:hover,
 a:focus {
