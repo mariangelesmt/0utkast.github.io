@@ -1771,7 +1771,7 @@ main h1{
 .img-center {
   display:block;
   margin:auto;
-  height: 600px;
+  height: 100%;
 }
 
 
