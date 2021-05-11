@@ -1791,6 +1791,7 @@ main h1{
   display:block;
   margin:auto;
   widht: 100%;
+  max-width:900px;
 }
 
 
