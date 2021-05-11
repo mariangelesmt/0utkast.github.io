@@ -656,12 +656,6 @@ header p:last-child{
   margin-bottom: 0;
 }
 
-.bg-center-fluid{
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
 
 .bg-left-fluid,
 .bg-left-md-fluid,
