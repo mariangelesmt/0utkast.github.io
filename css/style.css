@@ -1787,10 +1787,9 @@ main h1{
   height: 100%;
 }
 .img-center-r {
-  size: cover;
   display:block;
   margin:auto;
-  widht: 100%;
+  width: 100%;
   max-width:900px;
 }
 
