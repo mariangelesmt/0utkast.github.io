@@ -520,6 +520,8 @@ label.error{
 
 .mi-img {
       max-width: 100px;
+    display:block;
+    margin:auto;
 }
 
 
