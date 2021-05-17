@@ -518,6 +518,9 @@ label.error{
   box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
+.mi-img {
+      max-width: 100px;
+}
 
 
 /* 1.5 Icons */
