@@ -626,6 +626,13 @@ i.icon{
   margin:-4em -2em 0 -2em;
 }
 
+.benef{
+display: flex;
+    align-items: center;
+}
+
+
+}
 .col-base{
   padding:0 2em;
   margin-top:4em;
